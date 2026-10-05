@@ -1,0 +1,14 @@
+HttpRequestResponse{httpRequest=GET /shares/cmujl932i000cqs0oeu6hgqw8 HTTP/1.1
+Host: localhost:3333
+Accept: application/json
+Connection: close
+
+, httpResponse=HTTP/1.1 200 OK
+vary: Origin
+access-control-allow-credentials: true
+content-type: application/json; charset=utf-8
+content-length: 650
+Date: Sun, 27 Sep 2026 09:01:18 GMT
+Connection: close
+
+{"share":{"id":"cmujl932i000cqs0oeu6hgqw8","name":"payroll share","description":null,"expiration":null,"views":1,"createdAt":"2026-09-27T09:00:33.354Z","updatedAt":"2026-09-27T09:01:18.875Z","creatorId":"cmujl55ie0000qs0ovmyxqltb","security":{"maxViews":null,"hasPassword":false},"files":[{"id":"cmujl931l0009qs0ov2grgda4","name":"payroll-2026.","description":null,"extension":"pdf","size":"44","objectName":"cmujl55ie0000qs0ovmyxqltb/1790499633225-6sb6yp-payroll-2026.pdf","userId":"cmujl55ie0000qs0ovmyxqltb","folderId":null,"createdAt":"2026-09-27T09:00:33.321Z","updatedAt":"2026-09-27T09:00:33.321Z"}],"folders":[],"recipients":[],"alias":null}}, messageAnnotations=Annotations{comment='', highlightColor=NONE}}

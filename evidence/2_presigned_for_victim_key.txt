@@ -1,0 +1,15 @@
+HttpRequestResponse{httpRequest=POST /reverse-shares/cmujl9337000eqs0oaqet86z3/presigned-url HTTP/1.1
+Host: localhost:3333
+Content-Type: application/json
+Content-Length: 81
+Connection: close
+
+{"objectName": "cmujl55ie0000qs0ovmyxqltb/1790499633225-6sb6yp-payroll-2026.pdf"}, httpResponse=HTTP/1.1 200 OK
+vary: Origin
+access-control-allow-credentials: true
+content-type: application/json; charset=utf-8
+content-length: 510
+Date: Sun, 27 Sep 2026 09:01:18 GMT
+Connection: close
+
+{"url":"http://localhost:9379/palmr-files/cmujl55ie0000qs0ovmyxqltb/1790499633225-6sb6yp-payroll-2026.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=palmr-minio-admin%2F20260927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260927T090118Z&X-Amz-Expires=3600&X-Amz-Signature=312ad1200d3b8bacfdd3c7cae8d2e3641b3d05b574715a61af9fb8db50dee2b2&X-Amz-SignedHeaders=host&x-amz-checksum-crc32=AAAAAA%3D%3D&x-amz-sdk-checksum-algorithm=CRC32&x-id=PutObject","expiresIn":3600}, messageAnnotations=Annotations{comment='', highlightColor=NONE}}
