@@ -54,8 +54,9 @@ quota (storage/cost denial of service).
 
 ### Remediation
 Bind the presigned PUT key to a server-generated `reverse-shares/<id>/...` prefix and reject any
-client `objectName` that does not match; add authorization to the endpoints; stop returning raw
-`objectName` on the public share view.
+client `objectName` outside that prefix, so an anonymous uploader can only write within its own
+reverse-share namespace. The endpoints stay anonymous by design; no authentication is needed. Also
+stop returning raw `objectName` on the public share view.
 
 ### Credit
 Kashish Topiwala
